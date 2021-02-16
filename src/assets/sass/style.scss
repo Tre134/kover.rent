@@ -1,0 +1,76 @@
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+button:focus {
+    outline: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1220px;
+    @media (max-width:1240px) {
+        padding: 0 15px;
+        
+    }
+}
+
+
+
+/* blocks */
+
+@import "blocks/header";
+@import "blocks/intro";
+@import "blocks/services";
+@import "blocks/calculator";
+@import "blocks/applications";
+@import "blocks/callback";
+@import "blocks/footer";
+
+
+
+
+
+
+
+
+
+
